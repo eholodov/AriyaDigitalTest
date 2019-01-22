@@ -1,0 +1,34 @@
+{
+  "realEstateOfferings": [
+    {
+      "name": "Income eReit",
+      "percent": 28.12,
+      "valueOfShares": 23609.12,
+      "positionTotal": 23692.12
+    },
+    {
+      "name": "Test1",
+      "percent": 28.12,
+      "valueOfShares": 14609.12,
+      "positionTotal": 14692.42
+    },
+    {
+      "name": "Test 2",
+      "percent": 28.12,
+      "valueOfShares": 54609.12,
+      "positionTotal": 54692.23
+    },
+    {
+      "name": "Test 3",
+      "percent": 28.12,
+      "valueOfShares": 23123.12,
+      "positionTotal": 23434.12
+    },
+    {
+      "name": "Sub total",
+      "percent": 28.12,
+      "valueOfShares": 23123.12,
+      "positionTotal": 23434.10
+    }
+  ]
+}

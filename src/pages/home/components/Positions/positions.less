@@ -1,0 +1,51 @@
+.positions-content {
+  .ant-list-item:last-child {
+    border-top: 1px solid;
+    .list-item {
+      color: black;
+      font-weight: bold;
+    }
+  }
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    &__position-total {
+      display: flex;
+      justify-content: center;
+    }
+    div {
+      width: 25%;
+    }
+  }
+
+  .container {
+    border: 1px solid grey;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #d9d9d9;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    background: white;
+    margin: 0;
+  }
+
+  &__title-block {
+    h3 {
+      margin: 0;
+    }
+  }
+
+  .real-estate-offerings__title {
+    display: flex;
+    justify-content: space-around;
+    &-item {
+      width: 25%;
+      display: flex;
+      justify-content: flex-start;
+      &:last-child {
+        justify-content: center;
+      }
+    }
+  }
+}

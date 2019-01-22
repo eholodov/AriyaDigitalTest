@@ -1,0 +1,45 @@
+.global-header {
+  margin: auto;
+  border: 0;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fff;
+  display: flex;
+  .anticon-caret-down {
+    margin-left: 5px;
+  }
+
+  &__menu {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    .ant-menu {
+      width: 70%;
+    }
+  }
+
+  &__account {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 29%;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      svg {
+        margin-top: 3px;
+
+      }
+    }
+  }
+
+  &__user-info {
+    .name {
+      margin: 0 5px;
+    }
+  }
+
+}
